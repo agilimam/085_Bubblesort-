@@ -47,7 +47,7 @@ void unsorted() {
 	cout << endl;
 }
 
-void disply() {		// Procedur untuk menampilkan hasil
+void display() {// Procedur untuk menampilkan hasil
 	cout << endl;								// Output baris kosong
 	cout << "====================================" << endl;			// Output ke layar
 	cout << "Element Array yang telah tersusun" << endl;			// Output ke layar
@@ -62,7 +62,8 @@ int main() {
 	input();		//Memanggil procedur input()
 	unsorted();		// Memanggil procedur unsorted() dari
 	bubbleSortArray();	// Memanggil procedur bubblesortarray()
-	display();		//Memanggil procedur()
+	display();	// Memanggil procedur display()
 	return 0;
 }
+
 
