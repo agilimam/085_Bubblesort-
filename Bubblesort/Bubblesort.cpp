@@ -56,7 +56,13 @@ void disply() {		// Procedur untuk menampilkan hasil
 		cout << a[j] << endl;										// Output ke layar
 	}
 	cout << endl;													// Output baris kosong
+}
 
-
-
+int main() {
+	input();		//Memanggil procedur input()
+	unsorted();		// Memanggil procedur unsorted() dari
+	bubbleSortArray();	// Memanggil procedur bubblesortarray()
+	display();		//Memanggil procedur()
+	return 0;
+}
 
